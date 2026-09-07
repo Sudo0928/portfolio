@@ -1,0 +1,4 @@
+- [신뢰 경계 및 데모 폼 비-네트워크 특성](project_trust_boundaries.md) — 이 스타터킷의 폼/데이터 페치는 모두 클라이언트 데모, API/DB/세션 없음
+- [적용된 보안 베이스라인 위치](project_security_baseline.md) — next.config.ts 헤더, package.json overrides, MCP playwright 격리
+- [반복적 가짜 양성 패턴](feedback_recurring_false_positives.md) — Zod 정적 메시지 reflection, Sonner toast XSS, 정적 aria ID
+- [학습자료 맥락 Info 분류 기준](feedback_education_material_classification.md) — 데모가 약한 패턴을 가르치는 위험은 Info 로 별도 기록
