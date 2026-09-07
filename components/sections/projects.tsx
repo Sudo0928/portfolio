@@ -63,8 +63,8 @@ export function Projects() {
           </h3>
           <p className="text-muted-foreground mt-3 max-w-xl leading-7">
             상태머신을 직접 짜 보는 것에서 시작하여 netcode로 이어진
-            과정입니다. 모작이나 재현에 해당하는 것은 그 사실을 함께
-            밝혔습니다.
+            과정입니다. 모작이나 재현에 해당하는 것, 아직 완성하지 못한 것은 그
+            사실을 함께 밝혔습니다.
           </p>
           <div className="mt-8 grid gap-4 sm:grid-cols-2">
             {otherProjects.map((project) => (

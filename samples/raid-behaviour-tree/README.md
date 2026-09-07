@@ -12,7 +12,7 @@
 - `Composite/` — Selector · Sequence · Parallel
 - `Decorator/` — Cooldown · Timeout · Repeat · Guard 등
 - `Blackboard/` — 값 변경 시에만 이벤트를 발행하는 블랙보드. 이벤트를 구독한 노드가 실행 중이던 행동을 즉시 중단하고 재판단합니다(reactive abort). 플레이어 상태 변화나 적 등장에 곧바로 반응하는 핵심 장치입니다.
-- `Action/` · `Service/` — NavMesh 추적·복귀·적 탐지·접근·3단계 공격·체력 회복 등 실제 행동. 길찾기 부하를 줄이려 NavMesh 목적지는 0.5초 간격으로만 갱신합니다.
+- `Action/` · `Service/` — NavMesh 추적·복귀·적 탐지·접근·공격·체력 회복 등 실제 행동. 공격은 선딜(Startup)·시전(Action)·후딜(Recovery) 세 단계로 나누어 각 구간을 따로 다룹니다(연속 3타 콤보가 아닙니다). NavMesh 목적지는 매 틱이 아니라 Service 노드가 일정 간격으로 갱신하며, 간격은 인스펙터에서 설정합니다.
 
 ## 네트워크 결합
 
