@@ -34,8 +34,8 @@ export function Hero() {
             Not Just <span className="text-primary">Features.</span>
           </h1>
           <p className="text-muted-foreground mt-7 max-w-xl leading-8 text-pretty sm:text-lg">
-            혼자 플레이하던 게임을 여럿이 함께 플레이할 수 있도록 만드는 일에
-            관심을 가지고 있습니다.
+            기능이 늘어나도 무너지지 않는 게임 시스템을 만드는 일에 관심을
+            가지고 있습니다.
             <br />
             구조를 먼저 세우고 그 위에 재미를 올리는 방식으로 개발하고
             있습니다.
